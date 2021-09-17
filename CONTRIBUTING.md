@@ -2,7 +2,7 @@
 
 We welcome all types of contributions.
 
-Found a bug? Please create an [issue](https://github.com/iTwin/{FIXME}/issues).
+Found a bug? Please create an [issue](https://github.com/iTwin/library-api-sample-app/issues).
 
 Want to contribute by creating a pull request? Great! [Fork this repository](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/working-with-forks) to get started.
 
@@ -13,11 +13,30 @@ Want to contribute by creating a pull request? Great! [Fork this repository](htt
 ## Prerequisites
 
 - [Git](https://git-scm.com/)
-`FIXME: `
+- Visual Studio 2019 or [Visual Studio Code](https://code.visualstudio.com/)
+- [.NET 5.0](https://dotnet.microsoft.com/download/dotnet/5.0/)
 
-## Development Setup
+## Development Setup (Visual Studio 2019)
 
-FIXME
+1. Clone Repository
+
+2. Open iTwinLibrarySampleApp.sln and Build
+
+3. (Optional) Put breakpoint in Program.cs
+
+4. Run to debug
+
+5. It will require a user token and project ID.
+
+   - User token retrieval:
+      - Go to the Library API [developer portal](https://developer.bentley.com/apis/library/operations/create-catalog/)
+      - Click the TryIt Button
+      - In the popup window, select authorizationCode in the Bentley OAuth2 Service dropdown
+      - This will popup another window that will require you to login.
+      - After you login, the Authorization header will be populated. Copy the entire string and paste into the command window for the iTwin Sample Project App.
+      - Press Enter
+
+6. You can now step through the code that will create and manage files and folders.
 
 ---
 
