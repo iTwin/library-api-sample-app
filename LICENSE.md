@@ -1,4 +1,4 @@
-# MIT License
+﻿# MIT License
 
 Copyright © Bentley Systems, Incorporated. All rights reserved.
 
